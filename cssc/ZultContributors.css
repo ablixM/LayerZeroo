@@ -88,7 +88,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: colomun;
     width: 100%;
     margin-bottom: 25px;
 }
