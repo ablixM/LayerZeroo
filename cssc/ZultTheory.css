@@ -1,0 +1,400 @@
+body{
+    background-color: #111111;
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.small-tag{
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 20px;
+}
+
+
+
+.nav-link{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+.nav-link::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 1px;
+	top: 110%;
+	left: 0;
+	background-color: white;
+	transform-origin: bottom right;
+	transition: transform .4s cubic-bezier(.86,0,.07,1);
+  }
+
+.nav-link:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+  }
+
+
+.navbar-brand{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+.navbar-brand::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 1px;
+	top: 110%;
+	left: 0;
+	background-color: white;
+	transform-origin: bottom right;
+	transition: transform .4s cubic-bezier(.86,0,.07,1);
+  }
+
+.navbar-brand:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+#offcanvasNavbarLabel{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    --background-color: #504f4f;
+    --color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.theory-title img{
+    width: 0px;
+    
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.text-container-theory {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.text-wrapper-theory {
+    
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+}
+
+.short-text-theory {
+    color: white;
+}
+
+.long-text-theory {
+    color: white;
+    text-align: left;
+}
+
+.expanded_theory .long-text-theory {
+    display: block;
+}
+
+.toggle-button-theory {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.expanded_theory .toggle-button-theory {
+    background-color: #474747;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    --background-color: #504f4f;
+    --color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.section-one div{
+    display: flex;
+    text-align: start;
+}
+
+
+
+.section-one div h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+
+
+
+
+.leading-text{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    max-width: 1000px;
+}
+
+
+
+.title-info-theory{
+    color: white;
+}
+
+.theory-title img{
+    width: 0px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.theory-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.theory-title p{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    border: none .5px ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.socials img{
+    width: 30px;
+    margin: 10px;
+}
+
+.socials .lz{
+    width: 150px;
+    margin: 10px;
+}
+
+.social-txt{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.socials{
+	
+	position: relative;
+	cursor: pointer;
+}
+
+.socials::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 1px;
+	top: 110%;
+	left: 0;
+	background-color: white;
+	transform-origin: bottom right;
+	transition: transform .4s cubic-bezier(.86,0,.07,1);
+  }
+
+.socials:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+  }
+
+.title-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 80%;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #504f4f;
+    color: white;
+    padding: 20px;
+}
+
+.contri-social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    
+}
+
+
+.footer li{
+    list-style: none;
+    margin: 10px;
+    display: flex;
+}
+
+.conne{
+    padding:5px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+@media(max-width: 1400px){
+
+}
+
+@media(max-width: 1190px){
+  
+
+}
+
+@media(min-width: 960px){
+
+    .section-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        --background-color: #504f4f;
+        --color: white;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .theory-title img{
+        width: 40px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .theory-title p{
+        color: white;
+        font-size: 2em;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .leading-text{
+        text-align: center;
+        color: white;
+        max-width: 1000px;
+        font-size: 1.5em;
+        font-weight: 200;
+    }
+
+
+    .footer li{
+    list-style: none;
+    margin: 10px;
+    display: flex;
+}
+
+
+
+    
+}
