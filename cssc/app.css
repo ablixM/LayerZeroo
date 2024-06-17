@@ -215,7 +215,7 @@ body{
     --color: white;
     padding: 0;
     margin: 0;
-    
+   
 }
 
 .image{
@@ -374,8 +374,19 @@ a{
     align-items: center;
     justify-content: center;
     width: 100%;
-    color: white;
-    
+    color: white;   
+}
+
+.contri-social div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contri-social img{
+    width: 50px;
+    border-radius: 60px;
 }
 
 .footer li{
@@ -461,8 +472,8 @@ a{
     }
 
     .conne{
-        padding:20px;
-        margin: 20px;
+        
+        
     }
     
 }
