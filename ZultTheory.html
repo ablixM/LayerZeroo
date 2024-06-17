@@ -223,7 +223,24 @@
         
     </footer>
 
+    <script>
+        ScrollReveal({ 
+            distance: '60px',
+            duration: 2000,
+            delay: 400
+        });
 
+        ScrollReveal().reveal('.title', {delay: 100, origin: 'top' });
+        ScrollReveal().reveal('.wrapper', {delay: 100, origin: 'bottom' });
+        ScrollReveal().reveal('.section .text-box', {delay: 200, origin: 'bottom' });
+        ScrollReveal().reveal('.media-icon', { delay: 100, origin: 'bottom' , distance: '100px'});
+        ScrollReveal().reveal('.media-icon i', { delay: 100, origin: 'right', interval: 200 });
+        ScrollReveal().reveal('.section-one .image', {delay: 100, origin: 'left' });
+        ScrollReveal().reveal('.section-one .info', {delay: 100, origin: 'right' });
+        ScrollReveal().reveal('.section-two .image', {delay: 100, origin: 'top' });
+        ScrollReveal().reveal('.section-two .info', {delay: 100, origin: 'bottom' });
+        
+    </script>
     
 </body>
 </html>
