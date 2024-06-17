@@ -90,7 +90,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100%;
+    width: 80%;
     margin-bottom: 25px;
     background-color: #b502c56b;
     border: 1px solid #ff00ff;
@@ -101,8 +101,31 @@ body{
 .project-contributors a{
     color: white;
     text-decoration: none;
-    padding: 20px;
 }
+
+.project-contributors img{
+    width: 70px;
+    border-radius: 90px;
+    margin: 10px;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.profiles div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
 
 .landing{
     display: flex;
@@ -386,7 +409,7 @@ a{
 }
 .contri-social img{
     width: 50px;
-    border-radius: 60px;
+    border-radius: 90px;
 }
 
 .footer li{
@@ -471,9 +494,19 @@ a{
         font-size: 1.5em;
     }
 
-    .conne{
-        
-        
+    .project-contributors img{
+        width: 100px;
+        border-radius: 90px;
+        margin: 10px;
+    }
+
+    .profiles{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px;
+        width: 100%;
     }
     
 }

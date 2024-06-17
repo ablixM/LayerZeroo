@@ -82,6 +82,12 @@ body{
     justify-content: center;
 }
 
+.lore_text{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
 
 
 
@@ -90,20 +96,23 @@ body{
 .section{
     padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.288);
     width: 80%;
     --border: solid 1px white;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+    animation: pulse 1.75s infinite cubic-bezier(0.66, 0, 0, 1);
+    border-radius: 30px;
 }
 
 
 .text-box {
     padding: 12px 24px;
-    background-color: rgba(0, 0, 0, 0.288);
     color: white;
     border-radius: 7px;
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
-    animation: pulse 1.75s infinite cubic-bezier(0.66, 0, 0, 1);
+    
 }
 
 @keyframes pulse {
@@ -141,13 +150,14 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
 
 
 .section-one .image img{
     width: 100%;
+    
   }
 
 .section-one .info p{
@@ -168,17 +178,22 @@ body{
 
   .section-two .image img{
     width: 100%;
+    margin-bottom: 20px;
   }
 
 .section-two .info p{
     color: white;
     padding: 20px;
-    text-align: right;
-  }
+    text-align: left;
+}
+
+.section-two .image{
+   
+}
 
 
 
-  a{
+a{
     text-decoration: none;
 }
 
@@ -328,11 +343,11 @@ body{
         }
 
         .section-two .image{
-            order: 1;
+         
         }
     
         .section-two .info{
-            order: 2;
+           
         }
 
         .conne{
@@ -380,6 +395,8 @@ body{
         align-items: center;
         width: 80%;
       }
+
+  
 
     .text-box p{
         font-size: 1em;
@@ -431,6 +448,10 @@ body{
 
     .media-info a:nth-child(3){
         padding-top: 20px;
+    }
+
+    .section img{
+        width: 250px;
     }
    
 
