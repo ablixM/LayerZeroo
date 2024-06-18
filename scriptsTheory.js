@@ -5,17 +5,17 @@ function toggleText(sectionId) {
     const isExpanded = textContainer.classList.contains('expanded_theory');
 
     if (isExpanded) {
-        // Collapse the text
-        textWrapper.style.maxHeight = textWrapper.scrollHeight + 'px'; // Set to full height first
+        
+        textWrapper.style.maxHeight = textWrapper.scrollHeight + 'px';
         setTimeout(() => {
-            textWrapper.style.maxHeight = '30px'; // Then set to 0 to collapse
+            textWrapper.style.maxHeight = '30px'; 
         }, 0);
         button.textContent = 'Read more';
         button.style.backgroundColor = '';
         button.style.color = '';
     } else {
-        // Expand the text
-        textWrapper.style.maxHeight = textWrapper.scrollHeight + 'px'; // Set to full height to expand
+        
+        textWrapper.style.maxHeight = textWrapper.scrollHeight + 'px';
         setTimeout(() => {
             textWrapper.style.maxHeight = textWrapper.scrollHeight + 'px';
         }, 0);

@@ -80,20 +80,43 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+
+.legend-title{
+    color: white;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 
 
-
 .wrapper{
-    width: 90%;
+    width: 100%;
     max-width: 1150px;
     margin-inline: auto;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     height: 100px;
     margin-bottom: 50px;
+    color: white;
     overflow: hidden;
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0, 1) 20% ,rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
+}
+
+.wrapper img{
+    width: 50%;
+    overflow: hidden;
+    border-radius: 100px;
+
 }
 
 @keyframes scroll-left {
@@ -104,7 +127,7 @@ body{
 
 
 .item{
-    background-color: #424242;
+    background-color: #42424200;
     width: 200px;
     height: 100px;
     border-radius: 6px;
@@ -199,10 +222,19 @@ body{
   }
 
 
+.image{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
 
-.section-one .image img{
-    width: 100%;
-  }
+.image img{
+        height: 100%;
+        width: 100%;
+      
+}
+ 
 
 .section-one .info p{
     color: white;
@@ -220,9 +252,7 @@ body{
     margin-bottom: 50px;
   }
 
-  .section-two .image img{
-    width: 100%;
-  }
+ 
 
 .section-two .info p{
     color: white;
@@ -411,7 +441,7 @@ body{
     }
 }
 
-@media(max-width:  412px){
+@media(max-width:  450px){
     .sidebar{
         background-color: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
@@ -433,6 +463,7 @@ body{
         justify-content: space-around;
         align-items: center;
         width: 80%;
+        
       }
 
     .text-box p{
@@ -444,7 +475,7 @@ body{
         padding: 1px;
     }
     .wrapper{
-        width: 100%;
+        width: 70%;
         max-width: 1150px;
         margin-inline: auto;
         position: relative;
@@ -486,6 +517,20 @@ body{
     .media-info a:nth-child(3){
         padding-top: 20px;
     }
+    .image{
+        height: auto; 
+        width: auto; 
+        max-width: 200px; 
+        max-height: 200px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+
+    .image img{
+        height: 80%;
+        width: 80%;
+      
+}
    
 
 
