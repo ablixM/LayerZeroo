@@ -222,18 +222,9 @@ body{
   }
 
 
-.image{
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
-}
-
-.image img{
-        height: 100%;
-        width: 100%;
-      
-}
+  .section-one .image img{
+    width: 100%;
+  }
  
 
 .section-one .info p{
@@ -260,6 +251,10 @@ body{
     text-align: right;
   }
 
+  .section-two .image img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
 
   a{
@@ -526,10 +521,7 @@ body{
         margin-top: 20px;
     }
 
-    .image img{
-        height: 80%;
-        width: 80%;
-      
+  
 }
    
 
